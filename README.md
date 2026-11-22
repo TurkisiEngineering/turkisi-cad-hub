@@ -56,7 +56,7 @@ Bu repoda kod yok. Her şey **[Discussions](https://github.com/TurkisiEngineerin
 ## Ekip
 
 <!-- MEMBERS:START -->
-_Bu bölüm `scripts/build_bridge.py` tarafından `community/members.yml` dosyasından otomatik üretilir._
+<table><tr><td align="center" width="160"><a href="https://github.com/TurkisiEngineering"><img src="https://github.com/TurkisiEngineering.png?size=96" width="64" alt="TurkisiEngineering"><br><b>Türkişi Engineering</b></a><br><sub>Organizasyon</sub></td><td align="center" width="160"><a href="https://github.com/mikbalarikan"><img src="https://github.com/mikbalarikan.png?size=96" width="64" alt="mikbalarikan"><br><b>Muhammed İkbal Arıkan</b></a><br><sub>Kurucu ortak · moderatör</sub></td><td align="center" width="160"><a href="https://github.com/Olmustur"><img src="https://github.com/Olmustur.png?size=96" width="64" alt="Olmustur"><br><b>Ahmet Talha Olmuştur</b></a><br><sub>Kurucu ortak · moderatör</sub></td></tr></table>
 <!-- MEMBERS:END -->
 
 Topluluğa katkı yapanlar zamanla buraya eklenir. Bkz. [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -66,7 +66,9 @@ Topluluğa katkı yapanlar zamanla buraya eklenir. Bkz. [CONTRIBUTING.md](CONTRI
 Ekip üyelerinin `turkisi-community` topic'i taşıyan tüm açık repoları aşağıda listelenir. Liste her gün otomatik güncellenir.
 
 <!-- BRIDGE:START -->
-_Bu bölüm `.github/workflows/bridge-sync.yml` tarafından otomatik üretilir._
+_Henüz listelenecek proje yok._
+
+<sub>0 proje · tüm liste: [topics/turkisi-community](https://github.com/topics/turkisi-community)</sub>
 <!-- BRIDGE:END -->
 
 Kendi reponu bu listeye eklemek istiyorsan **Projelerimiz** kategorisinde paylaş. Düzenli katkı yapan üyeler `community/members.yml` dosyasına eklenir.
