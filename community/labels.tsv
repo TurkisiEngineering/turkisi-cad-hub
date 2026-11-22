@@ -1,0 +1,14 @@
+name	color	description
+nx	64BFFF	Siemens NX / NXOpen
+solidworks	AF1537	SolidWorks / API
+build123d	E6FF1F	build123d / CadQuery / OpenCascade
+freecad	B7C3CD	FreeCAD
+mcp	B07CFF	MCP sunucuları
+scan-to-cad	46D193	Scan / STL / mesh → parametrik CAD
+benchmark	22D3EE	Benchmark ve ölçüm
+lig	FF3347	Agentic CAD Ligi
+haftalik-challenge	FF9A4D	Haftanın challenge'ı
+baslangic	9DFF2E	Yeni başlayanlar için
+yayinda-cevaplandi	FF4FB0	Canlı yayında cevaplandı
+ayin-projesi	F59E0B	Ayın projesi seçildi
+hub	808E9B	Hub'ın kendisiyle ilgili öneri

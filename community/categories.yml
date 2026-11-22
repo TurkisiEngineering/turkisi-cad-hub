@@ -1,0 +1,99 @@
+# Discussions kategorileri — TEK DOĞRULUK KAYNAĞI
+#
+# GitHub, kategori oluşturmayı API ile desteklemiyor → bunlar web arayüzünden elle açılır:
+#   https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories  → "New category"
+#
+# ÖNEMLİ: .github/DISCUSSION_TEMPLATE/<slug>.yml dosya adı kategorinin GERÇEK slug'ı ile aynı olmalı.
+# Kategoriyi açtıktan sonra URL'deki slug'ı kontrol et (…/discussions/categories/<slug>).
+# Türkçe karakterli isimlerde GitHub'ın ürettiği slug `expected_slug` ile farklıysa
+# şablon dosyasını yeniden adlandır VE README/seed linklerini güncelle (scripts/check_slugs.py yardımcı olur).
+#
+# format: announcement | open | qa | poll   (UI'daki: Announcement / Open-ended discussion / Question & Answer / Poll)
+# section: opsiyonel kategori grupları (Discussions → Edit sections). Kullanmak zorunlu değil.
+
+categories:
+  - name: Duyurular
+    emoji: "📣"
+    expected_slug: duyurular
+    format: announcement      # yalnızca maintainer/owner yeni başlık açabilir
+    section: Kanal
+    description: Yayın saatleri, yeni videolar, lig ve hub güncellemeleri.
+    template: null
+
+  - name: Tanışma
+    emoji: "👋"
+    expected_slug: tanisma
+    format: open
+    section: Topluluk
+    description: Kendini tanıt — kimsin, hangi CAD aracı, hangi agent?
+    template: tanisma.yml
+
+  - name: Muhabbet
+    emoji: "💬"
+    expected_slug: muhabbet
+    format: open
+    section: Topluluk
+    description: Agentic CAD üzerine serbest sohbet, haberler, fikirler.
+    template: null            # serbest alan, form yok
+
+  - name: Soru-Cevap
+    emoji: "🙋"
+    expected_slug: soru-cevap
+    format: qa                # cevap işaretlenebilir
+    section: Destek
+    description: Takıldığın yer, hata, kurulum. Log ve ortam bilgisi ekle.
+    template: soru-cevap.yml
+
+  - name: Projelerimiz
+    emoji: "🛠️"
+    expected_slug: projelerimiz
+    format: open
+    section: Paylaşım
+    description: Topluluğun projeleri — parçalar, harness'lar, ölçülü sonuçlar. Seninki de burada.
+    template: projelerimiz.yml
+
+  - name: Lig
+    emoji: "🏁"
+    expected_slug: lig
+    format: open
+    section: Paylaşım
+    description: Agentic CAD Ligi denemeleri, skorlar ve haftalık challenge.
+    template: lig.yml
+
+  - name: Workflow & Prompt
+    emoji: "🧩"
+    expected_slug: workflow-prompt
+    format: open
+    section: Destek
+    description: Skill, prompt, MCP ayarları — başarısız denemeler dahil.
+    template: workflow-prompt.yml
+
+  - name: Yayın Soruları
+    emoji: "📺"
+    expected_slug: yayin-sorulari
+    format: qa                # yayında cevaplanan soru "answer" olarak işaretlenir
+    section: Kanal
+    description: Canlı yayında cevaplanacak sorular. Her yayın için ayrı başlık.
+    template: yayin-sorulari.yml
+
+  - name: Anketler
+    emoji: "🗳️"
+    expected_slug: anketler
+    format: poll
+    section: Topluluk
+    description: Sonraki yayın ve içerik oylamaları.
+    template: null            # poll formatında form kullanılmaz
+
+  - name: İş & Freelance
+    emoji: "💼"
+    expected_slug: is-freelance
+    format: open
+    section: Paylaşım
+    description: CAD / agentic CAD iş ilanları, freelance projeler, ortak arayışı.
+    template: is-freelance.yml
+
+# GitHub varsayılan kategorileri (General, Ideas, Q&A, Show and tell, Polls, Announcements)
+# repo Discussions açılınca otomatik gelir → yukarıdakilere DÖNÜŞTÜR (rename/edit) ya da SİL.
+# Dönüştürmek daha hızlı: Announcements→Duyurular, General→Muhabbet, Q&A→Soru-Cevap,
+# Show and tell→Projelerimiz, Polls→Anketler, Ideas→Workflow & Prompt. Kalanları yeni aç.
+# Dönüştürülen kategorinin slug'ı ESKİ adından kalabilir (ör. "general") → mutlaka kontrol et.

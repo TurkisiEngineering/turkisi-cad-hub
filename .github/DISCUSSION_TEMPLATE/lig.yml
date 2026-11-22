@@ -1,0 +1,47 @@
+labels: ["lig"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Türkişi Agentic CAD Ligi:** aynı spec'ler, farklı harness'lar, kör çizim. Lig reposu: [TurkisiEngineering/turkisi-cad](https://github.com/TurkisiEngineering/turkisi-cad)
+        Sonuçlar lig reposunda **issue** ile paylaşılır (config, sürümler, koşu kaydı, puan dosyası). Burası tartışma, deneme ve haftalık challenge alanı.
+  - type: dropdown
+    id: tur
+    attributes:
+      label: Başlık türü
+      options:
+        - Deneme / sonuç paylaşımı
+        - Haftalık challenge cevabı
+        - Kural / puanlama sorusu
+        - Yeni parça / spec önerisi
+    validations:
+      required: true
+  - type: input
+    id: harness
+    attributes:
+      label: Harness + model
+      placeholder: "build123d skill + Sonnet"
+  - type: input
+    id: cad
+    attributes:
+      label: CAD aracı
+  - type: input
+    id: parcalar
+    attributes:
+      label: Parça(lar)
+      placeholder: "P07, P12–P15"
+  - type: textarea
+    id: sonuc
+    attributes:
+      label: Sonuç
+      description: Skor, sapma, geçen/kalan parçalar, döngü sayısı. Rapor/log linki varsa ekle.
+  - type: input
+    id: pr
+    attributes:
+      label: Lig issue linki (varsa)
+  - type: checkboxes
+    id: kor
+    attributes:
+      label: Kör çizim
+      options:
+        - label: Agent'a spec dışında bilgi (referans model, ölçü, görsel) verilmedi.

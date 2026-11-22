@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-label="KUMPAS: Hoş geldin! Türkişi CAD Hub — agentic CAD topluluğu">
+<title>KUMPAS: Hoş geldin!</title>
+<defs>
+  <pattern id="gw" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M20 0H0V20" fill="none" stroke="#141F2B" stroke-width="1"/>
+  </pattern>
+  <pattern id="Gw" width="100" height="100" patternUnits="userSpaceOnUse">
+    <path d="M100 0H0V100" fill="none" stroke="#202E3C" stroke-width="1.2"/>
+  </pattern>
+</defs>
+<rect width="600" height="300" rx="18" fill="#0D161F"/>
+<rect width="600" height="300" rx="18" fill="url(#gw)"/>
+<rect width="600" height="300" rx="18" fill="url(#Gw)"/>
+<rect x=".75" y=".75" width="598.5" height="298.5" rx="17.25" fill="none" stroke="#394A5A" stroke-width="1.5"/>
+<g opacity="0.16"><polygon points="614.0,268.0 613.5,275.0 603.8,279.7 601.9,285.4 606.8,295.0 602.8,300.9 592.1,300.1 587.6,304.0 587.0,314.8 580.7,317.9 571.7,311.8 565.9,313.0 560.0,322.0 553.0,321.5 548.3,311.8 542.6,309.9 533.0,314.8 527.1,310.8 527.9,300.1 524.0,295.6 513.2,295.0 510.1,288.7 516.2,279.7 515.0,273.9 506.0,268.0 506.5,261.0 516.2,256.3 518.1,250.6 513.2,241.0 517.2,235.1 527.9,235.9 532.4,232.0 533.0,221.2 539.3,218.1 548.3,224.2 554.1,223.0 560.0,214.0 567.0,214.5 571.7,224.2 577.4,226.1 587.0,221.2 592.9,225.2 592.1,235.9 596.0,240.4 606.8,241.0 609.9,247.3 603.8,256.3 605.0,262.1" fill="none" stroke="#FF3347" stroke-width="2"/><circle cx="560" cy="268" r="17.3" fill="none" stroke="#FF3347" stroke-width="2"/></g>
+
+<g transform="translate(22.0 64.0) scale(0.43)">
+  <rect x="20" y="222" width="472" height="58" rx="10" fill="#B7C3CD" stroke="#070C11" stroke-width="14"/>
+  <g stroke="#070C11" stroke-width="5"><path d="M40,232V254M80,232V254M120,232V254M160,232V254M200,232V254M240,232V254M280,232V254M320,232V254M360,232V254M400,232V254M440,232V254"/><path d="M60,232V244M100,232V244M140,232V244M180,232V244M220,232V244M260,232V244M300,232V244M340,232V244M380,232V244M420,232V244M460,232V244"/></g>
+  <path d="M60,270 L130,270 L130,470 L98,500 L60,500 Z" fill="#B7C3CD" stroke="#070C11" stroke-width="14" stroke-linejoin="round"/>
+  <g>
+    <path d="M382,270 L452,270 L452,500 L414,500 L382,470 Z" fill="#B7C3CD" stroke="#070C11" stroke-width="14" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="96" y="96" width="320" height="300" rx="56" fill="#FF3347" stroke="#070C11" stroke-width="14"/>
+    <path d="M96,300 L416,300 L416,340 Q416,396 360,396 L152,396 Q96,396 96,340 Z" fill="#AF1537" opacity=".6"/>
+    <rect x="96" y="96" width="320" height="300" rx="56" fill="none" stroke="#070C11" stroke-width="14"/>
+    <rect x="136" y="140" width="240" height="150" rx="22" fill="#070C11"/>
+    <g transform="translate(256 205)"><g><g transform="translate(-256 -205)">
+      <path d="M182.4,212.9 Q205.4,183 228.4,212.9" fill="none" stroke="#E6FF1F" stroke-width="12.6" stroke-linecap="round"/>
+      <path d="M283.6,212.9 Q306.6,183 329.6,212.9" fill="none" stroke="#E6FF1F" stroke-width="12.6" stroke-linecap="round"/>
+    </g></g></g>
+    <path d="M230.7,256.6 Q256,275 281.3,256.6" fill="none" stroke="#E6FF1F" stroke-width="9.2" stroke-linecap="round"/>
+    <circle cx="196" cy="340" r="15" fill="#ECF1F5" stroke="#070C11" stroke-width="7"/>
+    <circle cx="256" cy="340" r="15" fill="#ECF1F5" stroke="#070C11" stroke-width="7"/>
+    <circle cx="316" cy="340" r="15" fill="#ECF1F5" stroke="#070C11" stroke-width="7"/>
+    <circle cx="256" cy="52" r="34" fill="#FF3347" stroke="#070C11" stroke-width="14"></circle>
+    <path d="M236,52 L276,52 M256,32 L256,72" stroke="#070C11" stroke-width="9" stroke-linecap="round"/>
+    <rect x="244" y="80" width="24" height="22" fill="#808E9B" stroke="#070C11" stroke-width="8"/>
+  </g>
+</g>
+<rect x="210.0" y="20.0" width="186.0" height="58.0" rx="14.0" fill="#ECF1F5"/><polygon points="228.0,78.0,208.0,100.0,258.0,78.0" fill="#ECF1F5"/>
+<text x="303.0" y="56.9" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#070C11" text-anchor="middle">Hoş geldin! 👋</text>
+<text x="252.0" y="168.0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#ECF1F5" text-anchor="start" textLength="122.0" lengthAdjust="spacingAndGlyphs">Türkişi</text>
+<rect x="381.9" y="137.0" width="87.1" height="36.7" rx="3.2" fill="#E6FF1F"/>
+<text x="387.0" y="168.0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#070C11" text-anchor="start" textLength="77.0" lengthAdjust="spacingAndGlyphs">CAD</text>
+<text x="476.9" y="168.0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="36" font-weight="800" fill="#ECF1F5" text-anchor="start" textLength="75.0" lengthAdjust="spacingAndGlyphs">Hub</text>
+<text x="254.0" y="206.0" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" textLength="228.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve"><tspan fill="#22D3EE">agentic CAD</tspan><tspan fill="#B7C3CD"> topluluğu</tspan></text>
+<text x="254.0" y="248.0" font-family="ui-monospace, SFMono-Regular, 'Cascadia Code', Consolas, 'Liberation Mono', monospace" font-size="18" font-weight="700" fill="#E6FF1F" text-anchor="start">Ölçmeden onay yok.</text>
+</svg>

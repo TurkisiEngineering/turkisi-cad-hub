@@ -1,0 +1,76 @@
+{
+ "P02": {
+  "code": "P02",
+  "name": "krank kolu",
+  "score": "85,00 · SW-H1",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/SW-H1/P02-krank-kolu_r652075/final.step",
+  "size": [
+   480,
+   127
+  ]
+ },
+ "P05": {
+  "code": "P05",
+  "name": "rotil başı",
+  "score": "84,21 · B3D-H1",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/B3D-H1/P05-rotil-basi_r820448/final.step",
+  "size": [
+   480,
+   273
+  ]
+ },
+ "P10": {
+  "code": "P10",
+  "name": "tırtıllı topuz",
+  "score": "SW-H1",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/SW-H1/P10-tirtilli-topuz_r935356/final.step",
+  "size": [
+   480,
+   333
+  ]
+ },
+ "P16_split_dark": {
+  "code": "P16",
+  "name": "konik dişli",
+  "score": "85,00 · SW-H1",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/SW-H1/P16-konik-disli_r571844/final.step",
+  "size": [
+   640,
+   640
+  ],
+  "split_deg": 62,
+  "cad_side": "-"
+ },
+ "P16_split_light": {
+  "code": "P16",
+  "name": "konik dişli",
+  "score": "85,00 · SW-H1",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/SW-H1/P16-konik-disli_r571844/final.step",
+  "size": [
+   640,
+   640
+  ],
+  "split_deg": 62,
+  "cad_side": "-"
+ },
+ "P17": {
+  "code": "P17",
+  "name": "kanca anahtar",
+  "score": "85,00 · B3D-H0",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/B3D-H0/P17-kanca-anahtar_r073767/final.step",
+  "size": [
+   480,
+   249
+  ]
+ },
+ "P19": {
+  "code": "P19",
+  "name": "döner tekerlek",
+  "score": "84,32 · B3D-H0",
+  "source": "https://github.com/TurkisiEngineering/turkisi-cad/blob/main/benchmark/sonuclar/kosular/B3D-H0/P19-doner-tekerlek_r024679/final.step",
+  "size": [
+   407,
+   480
+  ]
+ }
+}

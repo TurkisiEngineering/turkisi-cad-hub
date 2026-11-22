@@ -1,0 +1,34 @@
+# Köprü (bridge) ayarı
+#
+# scripts/build_bridge.py bu dosyayı okur ve README'deki iki bölümü üretir:
+#   - MEMBERS  → Ekip kartları
+#   - BRIDGE   → Aşağıdaki hesaplarda `topic` etiketini taşıyan AÇIK, arşivlenmemiş, fork olmayan repolar
+#
+# Bir repo listeye YALNIZCA sahibi ona topic eklerse girer (opt-in).
+# Topic eklenmemiş repolar asla listelenmez.
+
+topic: turkisi-community
+
+# Hub'ın kendisi ve profil repoları listelenmez
+exclude_repos:
+  - TurkisiEngineering/turkisi-cad-hub
+  - TurkisiEngineering/.github
+  - mikbalarikan/.github
+  - mikbalarikan/mikbalarikan
+
+owners:
+  - login: TurkisiEngineering
+    type: org
+    display: Türkişi Engineering
+    role: Organizasyon
+
+  - login: mikbalarikan
+    type: user
+    display: Muhammed İkbal Arıkan
+    role: Kurucu ortak · moderatör
+
+  # Ahmet: kullanıcı adı gelince scripts/ahmet_ekle.sh açar
+  - login: Olmustur
+    type: user
+    display: Ahmet Talha Olmuştur
+    role: Kurucu ortak · moderatör

@@ -1,0 +1,51 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ne kadar net yazarsan o kadar hızlı cevap alırsın. Çözüldüğünde işe yarayan yanıtı **Mark as answer** ile işaretle.
+  - type: textarea
+    id: hedef
+    attributes:
+      label: Ne yapmaya çalışıyorsun?
+    validations:
+      required: true
+  - type: textarea
+    id: denenen
+    attributes:
+      label: Ne denedin, ne oldu?
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Hata mesajı / log
+      description: Varsa yapıştır. Otomatik kod bloğuna alınır.
+      render: shell
+  - type: dropdown
+    id: proje
+    attributes:
+      label: İlgili proje
+      options:
+        - Genel / kendi projem
+        - turkisi-cad (Lig)
+        - ReCADBench
+        - agentic_STL-to-CAD
+        - NX MCP
+        - PoCAD
+        - open-dedica
+        - oguz-cad
+        - Diğer
+  - type: textarea
+    id: ortam
+    attributes:
+      label: Ortam
+      value: |
+        - İşletim sistemi:
+        - CAD aracı + sürüm:
+        - Agent / model:
+        - MCP sunucusu (varsa):
+  - type: textarea
+    id: ek
+    attributes:
+      label: Ekran görüntüsü / dosya
+      description: Görsel sürükle-bırak. STEP/STL için .zip yap.

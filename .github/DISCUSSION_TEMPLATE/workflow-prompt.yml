@@ -1,0 +1,33 @@
+body:
+  - type: textarea
+    id: amac
+    attributes:
+      label: Ne işe yarıyor?
+      placeholder: "NX'te delik desenlerini agent'a ölçtürüp doğrulatan skill."
+    validations:
+      required: true
+  - type: textarea
+    id: icerik
+    attributes:
+      label: Prompt / skill / config
+      description: Otomatik kod bloğuna alınır. Uzunsa gist ya da repo linki ver.
+      render: markdown
+  - type: input
+    id: arac
+    attributes:
+      label: Araç ve model
+      placeholder: "Claude Code, SolidWorks API MCP, Opus"
+  - type: dropdown
+    id: durum
+    attributes:
+      label: Durum
+      options:
+        - Çalışıyor
+        - Kısmen çalışıyor
+        - Çalışmadı (neden çalışmadığını paylaşıyorum)
+    validations:
+      required: true
+  - type: textarea
+    id: sinir
+    attributes:
+      label: Sınırları / dikkat edilecekler

@@ -1,0 +1,70 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Projeni toplulukla paylaş. Ölçü verirsen (sapma, feature sayısı, süre, döngü) karşılaştırma yapılabilir. *Ölçmeden onay yok.*
+  - type: textarea
+    id: ozet
+    attributes:
+      label: Ne yaptın?
+      placeholder: "Bir STL'den agent ile parametrik flanş modeli çıkardım."
+    validations:
+      required: true
+  - type: dropdown
+    id: cad
+    attributes:
+      label: CAD aracı
+      multiple: true
+      options:
+        - Siemens NX
+        - SolidWorks
+        - build123d / CadQuery
+        - FreeCAD
+        - Fusion
+        - Onshape
+        - Diğer
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent / harness / model
+      placeholder: "Claude Code + NX MCP, Opus"
+  - type: dropdown
+    id: girdi
+    attributes:
+      label: Girdi
+      multiple: true
+      options:
+        - Metin spec
+        - Teknik resim / eskiz
+        - STL / mesh / 3D tarama
+        - Fotoğraf
+        - Mevcut CAD
+        - Diğer
+  - type: textarea
+    id: olcum
+    attributes:
+      label: Sonuç ve ölçüm
+      value: |
+        - Maks. sapma (mm):
+        - Feature sayısı:
+        - Döngü / revizyon sayısı:
+        - Süre:
+        - Ne işe yaradı, nerede takıldı:
+  - type: textarea
+    id: medya
+    attributes:
+      label: Görsel / GIF / video
+      description: Sürükle-bırak. STEP/STL için .zip ya da repo linki.
+  - type: input
+    id: repo
+    attributes:
+      label: Repo / link (opsiyonel)
+  - type: checkboxes
+    id: hak
+    attributes:
+      label: Paylaşım
+      options:
+        - label: Bu dosyaları paylaşma hakkım var; NDA'lı müşteri verisi içermiyor.
+          required: true
