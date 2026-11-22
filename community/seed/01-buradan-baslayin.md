@@ -10,7 +10,7 @@ Türkişi Engineering kanalının **agentic CAD** topluluğuna hoş geldin. 📏
 Burada AI agent'larla gerçek CAD araçlarını (Siemens NX, SolidWorks, build123d, FreeCAD …) kullanmayı konuşuyor, birbirimize yardım ediyor ve sonuçlarımızı ölçerek paylaşıyoruz.
 
 ### İlk 3 adım
-1. **[Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanisma)** kategorisinde kendini kısaca tanıt.
+1. **[Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanışma)** kategorisinde kendini kısaca tanıt.
 2. Bildirim almak için sağ üstten **Watch → Custom → Discussions** seç.
 3. Bir sorun varsa **[Soru-Cevap](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/soru-cevap)**, bir şey ürettiysen **[Projelerimiz](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/projelerimiz)**.
 

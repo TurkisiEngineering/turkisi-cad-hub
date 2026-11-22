@@ -35,7 +35,7 @@ Bu repoda kod yok. Her şey **[Discussions](https://github.com/TurkisiEngineerin
 ## Nasıl katılırım?
 
 1. Ücretsiz bir [GitHub hesabı](https://github.com/signup) aç. Adım adım anlatım: [GitHub'a ilk adım](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/duyurular).
-2. **[Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanisma)** kategorisinde kendini kısaca anlat.
+2. **[Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanışma)** kategorisinde kendini kısaca anlat.
 3. Bildirim almak için sağ üstten **Watch → Custom → Discussions** seç.
 
 ## Kategoriler
@@ -43,15 +43,15 @@ Bu repoda kod yok. Her şey **[Discussions](https://github.com/TurkisiEngineerin
 | | Kategori | Ne için? |
 |---|---|---|
 | 📣 | [Duyurular](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/duyurular) | Yayın saatleri, yeni videolar, lig güncellemeleri |
-| 👋 | [Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanisma) | Kimsin, hangi CAD aracı, hangi agent |
+| 👋 | [Tanışma](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/tanışma) | Kimsin, hangi CAD aracı, hangi agent |
 | 💬 | [Muhabbet](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/muhabbet) | Serbest sohbet, haberler, fikirler |
 | 🙋 | [Soru-Cevap](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/soru-cevap) | Takıldığın yer, hata, kurulum desteği |
 | 🛠️ | [Projelerimiz](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/projelerimiz) | Topluluğun projeleri: parçalar, harness'lar, ölçülü sonuçlar |
 | 🏁 | [Lig](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/lig) | Agentic CAD Ligi denemeleri, skorlar, haftalık challenge |
 | 🧩 | [Workflow & Prompt](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/workflow-prompt) | Skill, prompt, MCP ayarları, başarısız denemeler |
-| 📺 | [Yayın Soruları](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/yayin-sorulari) | Canlı yayında cevaplanacak sorular |
+| 📺 | [Yayın Soruları](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/yayın-soruları) | Canlı yayında cevaplanacak sorular |
 | 🗳️ | [Anketler](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/anketler) | Sonraki yayın / içerik oylamaları |
-| 💼 | [İş & Freelance](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/is-freelance) | CAD / agentic CAD iş ilanları ve ortak arayışı |
+| 💼 | [İş & Freelance](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/categories/i̇ş-freelance) | CAD / agentic CAD iş ilanları ve ortak arayışı |
 
 ## Ekip
 

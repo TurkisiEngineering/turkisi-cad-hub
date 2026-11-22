@@ -11,6 +11,8 @@
 # format: announcement | open | qa | poll   (UI'daki: Announcement / Open-ended discussion / Question & Answer / Poll)
 # section: opsiyonel kategori grupları (Discussions → Edit sections). Kullanmak zorunlu değil.
 
+# NOT (2026-11-22): GitHub slug'ı addan üretir ve Türkçe karakterleri KORUR (Tanışma → tanışma, İş → i̇ş: i + U+0307).
+# Kategori yeniden adlandırılınca slug da değişir. Aşağıdaki expected_slug'lar canlı slug'lardır (check_slugs.py --fix).
 categories:
   - name: Duyurular
     emoji: "📣"
@@ -22,11 +24,11 @@ categories:
 
   - name: Tanışma
     emoji: "👋"
-    expected_slug: tanisma
+    expected_slug: tanışma
     format: open
     section: Topluluk
     description: Kendini tanıt — kimsin, hangi CAD aracı, hangi agent?
-    template: tanisma.yml
+    template: tanışma.yml
 
   - name: Muhabbet
     emoji: "💬"
@@ -70,11 +72,11 @@ categories:
 
   - name: Yayın Soruları
     emoji: "📺"
-    expected_slug: yayin-sorulari
+    expected_slug: yayın-soruları
     format: qa                # yayında cevaplanan soru "answer" olarak işaretlenir
     section: Kanal
     description: Canlı yayında cevaplanacak sorular. Her yayın için ayrı başlık.
-    template: yayin-sorulari.yml
+    template: yayın-soruları.yml
 
   - name: Anketler
     emoji: "🗳️"
@@ -86,11 +88,11 @@ categories:
 
   - name: İş & Freelance
     emoji: "💼"
-    expected_slug: is-freelance
+    expected_slug: i̇ş-freelance
     format: open
     section: Paylaşım
     description: CAD / agentic CAD iş ilanları, freelance projeler, ortak arayışı.
-    template: is-freelance.yml
+    template: i̇ş-freelance.yml
 
 # GitHub varsayılan kategorileri (General, Ideas, Q&A, Show and tell, Polls, Announcements)
 # repo Discussions açılınca otomatik gelir → yukarıdakilere DÖNÜŞTÜR (rename/edit) ya da SİL.
