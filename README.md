@@ -8,6 +8,7 @@
 <p align="center">
   <b>Agentic CAD üzerine Türkçe topluluk.</b><br>
   Soru sor, projeni paylaş, lige katıl, yayınlara soru gönder.<br>
+  📺 <b>Her çarşamba 21.00</b> (TSİ) <a href="https://www.youtube.com/channel/UCj06nxan1j_9dfTbJUVrRVQ">YouTube'da canlı yayın</a> · <a href="https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/1">yayın serisi</a><br>
   <i>Ölçmeden onay yok. — KUMPAS</i>
 </p>
 

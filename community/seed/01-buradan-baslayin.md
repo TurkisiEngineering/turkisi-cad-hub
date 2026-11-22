@@ -26,7 +26,7 @@ Burada AI agent'larla gerçek CAD araçlarını (Siemens NX, SolidWorks, build12
 | İş ilanı / freelance / ortak arayışı | 💼 Kariyer & Freelance |
 
 ### Canlı yayınlar
-Her yayından önce **📺 Yayın Soruları** kategorisinde sabitlenmiş bir başlık açıyoruz. Soruların yayında ekranda cevaplanıyor. Yayın sonrası kayıt ve dosyalar aynı başlığa ekleniyor.
+**Her çarşamba 21.00'de** (TSİ) [YouTube'da](https://www.youtube.com/channel/UCj06nxan1j_9dfTbJUVrRVQ) canlı yayındayız. Her yayından önce **📣 Duyurular**'da o haftanın başlığını açıyoruz: sorularını oraya yorum olarak yaz, en çok 👍 alanları yayında öncelikli cevaplıyoruz. Yayın sonrası kayıt ve dosyalar aynı başlığa ekleniyor. Serinin tüm yayınları: **[📺 yayın serisi](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions/1)**
 
 ### Diğer projelerimiz
 Ekibin agentic CAD projeleri hub'ın ana sayfasında **[Projeler](https://github.com/TurkisiEngineering/turkisi-cad-hub#projeler)** bölümünde. Liste otomatik güncelleniyor.
