@@ -12,7 +12,7 @@ GitHub'ı ilk kez kullanıyorsan sorun değil. Yazılımcı olman gerekmiyor, bu
 [github.com/TurkisiEngineering/turkisi-cad-hub/discussions](https://github.com/TurkisiEngineering/turkisi-cad-hub/discussions). Telefonda da çalışır; GitHub mobil uygulaması varsa orada da açılır.
 
 ### 3. İlk mesajın
-**Tanışma** kategorisi → **New discussion** → formu doldur → **Start discussion**.
+**Merhaba** kategorisi → **New discussion** → formu doldur → **Start discussion**.
 
 ### 4. Bildirim al
 Sayfanın sağ üstünde **Watch → Custom → ☑ Discussions**. Sana cevap gelince e-posta ya da uygulama bildirimi alırsın.

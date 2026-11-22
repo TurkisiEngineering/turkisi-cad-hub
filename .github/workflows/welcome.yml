@@ -28,7 +28,7 @@ jobs:
 
             const hub = `https://github.com/${context.repo.owner}/${context.repo.repo}`;
             const messages = {
-              "tanışma":
+              "merhaba":
                 `🤖 **KUMPAS:** Hoş geldin @${author}! 📏\n\n` +
                 `- Takıldığın bir şey olursa → [Soru-Cevap](${hub}/discussions/categories/soru-cevap)\n` +
                 `- Bir şey ürettiysen → [Projelerimiz](${hub}/discussions/categories/projelerimiz)\n` +

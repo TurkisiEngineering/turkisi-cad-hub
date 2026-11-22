@@ -11,8 +11,10 @@
 # format: announcement | open | qa | poll   (UI'daki: Announcement / Open-ended discussion / Question & Answer / Poll)
 # section: opsiyonel kategori grupları (Discussions → Edit sections). Kullanmak zorunlu değil.
 
-# NOT (2026-11-22): GitHub slug'ı addan üretir ve Türkçe karakterleri KORUR (Tanışma → tanışma, İş → i̇ş: i + U+0307).
-# Kategori yeniden adlandırılınca slug da değişir. Aşağıdaki expected_slug'lar canlı slug'lardır (check_slugs.py --fix).
+# NOT (2026-11-23): GitHub slug'ı addan üretir ve Türkçe harfleri KORUR (ör. Yayın Soruları → yayın-soruları);
+# kategori yeniden adlandırılınca slug da değişir. GitHub, Türkçe harfli slug'larda FORM ŞABLONU ÇALIŞTIRMAZ
+# (birebir, ASCII ve yüzde-kodlu dosya adları denendi). Bu yüzden formlu kategorilerin adı ASCII slug üretmeli:
+# "Tanışma" → Merhaba, "İş & Freelance" → Kariyer & Freelance (kullanıcı kararı). Yayın Soruları formsuz kalır.
 categories:
   - name: Duyurular
     emoji: "📣"
@@ -22,13 +24,13 @@ categories:
     description: Yayın saatleri, yeni videolar, lig ve hub güncellemeleri.
     template: null
 
-  - name: Tanışma
+  - name: Merhaba
     emoji: "👋"
-    expected_slug: tanışma
+    expected_slug: merhaba
     format: open
     section: Topluluk
     description: Kendini tanıt — kimsin, hangi CAD aracı, hangi agent?
-    template: tanışma.yml
+    template: merhaba.yml
 
   - name: Muhabbet
     emoji: "💬"
@@ -86,13 +88,13 @@ categories:
     description: Sonraki yayın ve içerik oylamaları.
     template: null            # poll formatında form kullanılmaz
 
-  - name: İş & Freelance
+  - name: Kariyer & Freelance
     emoji: "💼"
-    expected_slug: i̇ş-freelance
+    expected_slug: kariyer-freelance
     format: open
     section: Paylaşım
     description: CAD / agentic CAD iş ilanları, freelance projeler, ortak arayışı.
-    template: i̇ş-freelance.yml
+    template: kariyer-freelance.yml
 
 # GitHub varsayılan kategorileri (General, Ideas, Q&A, Show and tell, Polls, Announcements)
 # repo Discussions açılınca otomatik gelir → yukarıdakilere DÖNÜŞTÜR (rename/edit) ya da SİL.

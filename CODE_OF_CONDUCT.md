@@ -6,13 +6,13 @@ Türkişi CAD Hub, agentic CAD öğrenmek ve üretmek isteyen herkes için açı
 
 - **Saygılı ol.** Kimseyi bilgisi, deneyimi, kullandığı araç ya da dili yüzünden küçümseme. "Basit soru" diye bir şey yok.
 - **Ölçerek konuş.** "Çalışmıyor" yerine ne denediğini, hatayı/logu ve ortamını yaz. Sonuç paylaşırken mümkünse ölçü ver (sapma, feature sayısı, süre).
-- **Doğru kategoriyi kullan.** Soru → Soru-Cevap, kendi işin → Projelerimiz, iş ilanı → İş & Freelance.
+- **Doğru kategoriyi kullan.** Soru → Soru-Cevap, kendi işin → Projelerimiz, iş ilanı → Kariyer & Freelance.
 - **Cevabı işaretle.** Soru-Cevap'ta sorunun çözüldüyse işe yarayan yanıtı "Mark as answer" ile işaretle.
 
 ## Kabul edilmeyenler
 
 - Hakaret, taciz, ayrımcılık, kişisel saldırı.
-- Spam, reklam, alakasız link. İş/freelance paylaşımları yalnızca **İş & Freelance** kategorisinde.
+- Spam, reklam, alakasız link. İş/freelance paylaşımları yalnızca **Kariyer & Freelance** kategorisinde.
 - **Paylaşma hakkın olmayan dosyalar:** NDA'lı müşteri modelleri, lisansı paylaşıma izin vermeyen ticari CAD dosyaları, başkasının izinsiz verisi.
 - Kişisel bilgi ifşası (başkasının adresi, telefonu vb.).
 - Kırık/lisanssız yazılım (crack, keygen) paylaşımı ya da istenmesi.
