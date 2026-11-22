@@ -55,7 +55,15 @@ def search_repos(owner: dict, topic: str) -> list[dict]:
     q = f"topic:{topic} {qual}:{owner['login']} archived:false fork:false is:public"
     url = f"{API}/search/repositories?" + urllib.parse.urlencode(
         {"q": q, "sort": "updated", "order": "desc", "per_page": 100})
-    data = gh_get(url)
+    try:
+        data = gh_get(url)
+    except urllib.error.HTTPError as e:
+        # 422: GitHub bu kullanıcıyı aramada gösteremiyor (ör. hiç public reposu yok ya da hesap yeni).
+        # Tek bir üye yüzünden tüm liste çökmesin: o üyeyi atla, uyarı yaz.
+        if e.code == 422:
+            print(f"! {owner['login']}: GitHub araması bu hesabı listeleyemedi (422), atlandı", file=sys.stderr)
+            return []
+        raise
     return data.get("items", [])
 
 
