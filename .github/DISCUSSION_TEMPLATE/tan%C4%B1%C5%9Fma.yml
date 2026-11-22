@@ -1,0 +1,49 @@
+title: "👋 "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Hoş geldin! Birkaç satır yeterli. Başlığa adını ya da kullanıcı adını yaz.
+  - type: textarea
+    id: kim
+    attributes:
+      label: Kimsin, ne yapıyorsun?
+      placeholder: "Makine mühendisi, Bursa. 6 yıldır SolidWorks, agentic CAD'e yeni başladım."
+    validations:
+      required: true
+  - type: dropdown
+    id: cad
+    attributes:
+      label: Kullandığın CAD araçları
+      multiple: true
+      options:
+        - Siemens NX
+        - SolidWorks
+        - build123d / CadQuery
+        - FreeCAD
+        - Fusion
+        - Onshape
+        - CATIA
+        - Diğer
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Kullandığın agent / model
+      multiple: true
+      options:
+        - Claude Code
+        - Codex
+        - Cursor
+        - Gemini CLI
+        - Yerel model
+        - Henüz başlamadım
+        - Diğer
+  - type: textarea
+    id: hedef
+    attributes:
+      label: Agentic CAD ile ne yapmak istiyorsun?
+      placeholder: "Tekrarlayan sac parçaları otomatik modellemek, STL'den CAD çıkarmak…"
+  - type: input
+    id: link
+    attributes:
+      label: GitHub / YouTube / LinkedIn (opsiyonel)
