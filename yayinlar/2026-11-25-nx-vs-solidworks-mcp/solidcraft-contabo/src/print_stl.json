@@ -1,0 +1,251 @@
+{
+ "commands": [
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "BottomShell"
+    ],
+    "translate": [
+     0,
+     0,
+     -0.8
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/01_bottom_shell.stl",
+    "bodies": [
+     "BottomShell"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "TopShell"
+    ],
+    "translate": [
+     0,
+     0,
+     -10.0
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/02_top_shell.stl",
+    "bodies": [
+     "TopShell"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonL"
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "angle": "-1.9 deg",
+    "origin": [
+     0,
+     3.75,
+     10.3
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonL"
+    ],
+    "translate": [
+     0,
+     0,
+     -10.3
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/03_button_left.stl",
+    "bodies": [
+     "ButtonL"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonR"
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "angle": "-1.9 deg",
+    "origin": [
+     0,
+     3.75,
+     10.3
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonR"
+    ],
+    "translate": [
+     0,
+     0,
+     -10.3
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/04_button_right.stl",
+    "bodies": [
+     "ButtonR"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "DPIButton"
+    ],
+    "axis": [
+     1,
+     0,
+     0
+    ],
+    "angle": "-156.51 deg",
+    "origin": [
+     0.67,
+     1.5,
+     20
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "DPIButton"
+    ],
+    "translate": [
+     0,
+     0,
+     -12.3436
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/05_dpi_button.stl",
+    "bodies": [
+     "DPIButton"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "SideBtnF"
+    ],
+    "translate": [
+     0,
+     0,
+     -10.15
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/06_thumb_button_front.stl",
+    "bodies": [
+     "SideBtnF"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "SideBtnR"
+    ],
+    "translate": [
+     0,
+     0,
+     -10.15
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/07_thumb_button_rear.stl",
+    "bodies": [
+     "SideBtnR"
+    ],
+    "quality": "fine"
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "Wheel"
+    ],
+    "axis": [
+     0,
+     1,
+     0
+    ],
+    "angle": "90 deg",
+    "origin": [
+     3.5,
+     17.69,
+     0
+    ]
+   }
+  },
+  {
+   "command": "file.export",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/stl/08_wheel.stl",
+    "bodies": [
+     "Wheel"
+    ],
+    "quality": "fine"
+   }
+  }
+ ]
+}

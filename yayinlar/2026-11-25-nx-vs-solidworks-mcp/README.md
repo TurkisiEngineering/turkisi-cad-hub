@@ -20,7 +20,7 @@ footprint'ten, yükseklikleri tahmin. Gerçek parçayla basacaksanız bu üç ö
 |---|---|---|---|
 | [`neon-mouse/`](neon-mouse/) | Yayın öncesi örnek fare | Antigravity · Neon modeli + bizim NX harness'ımız (NX 2206, NXOpen journal) | ✅ hazır |
 | `nx-mcp/` | Yayındaki NX ajanı | NX MCP | ⏳ yayında |
-| `solidcraft-contabo/` | Açık kaynak CAD ajanı | SolidCraft, Contabo Linux VPS | ⏳ yayında |
+| [`solidcraft-contabo/`](solidcraft-contabo/) | Açık kaynak CAD ajanı | SolidCraft 0.49.1 (headless), Contabo Linux VPS | ✅ hazır |
 | `solidworks-mcp/` | Konuğumuz Ahmet Talha Olmuştur | SolidWorks MCP | ⏳ yayında |
 
 Kıyas kriterleri: basılabilirlik · tuş/tekerlek uyumu · sensör açıklığı · montaj/vida · ergonomi · süre.
@@ -42,3 +42,22 @@ Kıyas kriterleri: basılabilirlik · tuş/tekerlek uyumu · sensör açıklığ
 ![Neon Mouse](neon-mouse/views_hq/07_hero_neon_v3.png)
 
 Betiklerdeki mutlak Windows yolları bizim makinemize ait; kendi makinenizde çalıştırırken değiştirin.
+
+## SolidCraft (Contabo) içeriği
+
+120 × 64 × 37.6 mm, 8 baskı parçası: alt kabuk, üst kabuk, sol/sağ tuş, DPI tuşu, iki başparmak tuşu, tekerlek
+(+ Ø2 çelik pim). Tasarım notları, varsayımlar, malzeme listesi ve baskı ayarları:
+[`DESIGN_NOTES.md`](solidcraft-contabo/DESIGN_NOTES.md) (İngilizce, ajanın kendi raporu).
+
+| Dosya / klasör | İçerik |
+|---|---|
+| `mouse_assembly.step`, `mouse_assembly_with_pcb.step` | STEP montajı (9 adlı parça), PCB'li hali |
+| [`stl/`](solidcraft-contabo/stl/) | Parça başına STL, baskı yönünde, z = 0'da |
+| [`renders/`](solidcraft-contabo/renders/) | iso, üst, sol, ön, arka, patlatılmış, orta kesit, röntgen |
+| `mouse_shell.sc` | SolidCraft tasarım dosyası (parametrik geçmiş) |
+| [`src/`](solidcraft-contabo/src/) | Modeli baştan üreten betik (`build_mouse.py` → 306 komutluk `build_mouse.json`) ve QA betikleri |
+| `build_report.txt`, `qa_report.json`, `SHA256SUMS.txt` | SolidCraft yapım raporu, bağımsız QA (build123d + trimesh), dosya özetleri |
+
+![SolidCraft](solidcraft-contabo/renders/mouse_iso.png)
+
+Betiklerdeki `/root/hub/...` yolları bizim sunucumuza ait; kendi ortamınızda değiştirin.

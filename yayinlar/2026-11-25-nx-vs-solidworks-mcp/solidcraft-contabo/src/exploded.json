@@ -1,0 +1,103 @@
+{
+ "commands": [
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "TopShell"
+    ],
+    "translate": [
+     0,
+     0,
+     30
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonL"
+    ],
+    "translate": [
+     -6,
+     0,
+     40
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "ButtonR"
+    ],
+    "translate": [
+     6,
+     0,
+     40
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "DPIButton"
+    ],
+    "translate": [
+     0,
+     0,
+     55
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "Wheel",
+     "WheelPin"
+    ],
+    "translate": [
+     0,
+     0,
+     22
+    ]
+   }
+  },
+  {
+   "command": "solid.move",
+   "params": {
+    "bodies": [
+     "SideBtnF",
+     "SideBtnR"
+    ],
+    "translate": [
+     -25,
+     0,
+     8
+    ]
+   }
+  },
+  {
+   "command": "occurrence.move",
+   "params": {
+    "occurrence": "PCB:1",
+    "space": "world",
+    "translate": [
+     0,
+     0,
+     12
+    ],
+    "move_grounded": true
+   }
+  },
+  {
+   "command": "file.export_step",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/render_exploded.step"
+   }
+  }
+ ]
+}

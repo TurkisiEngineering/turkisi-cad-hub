@@ -1,0 +1,223 @@
+{
+ "step_top_children": [
+  "PCB",
+  "BottomShell",
+  "TopShell",
+  "ButtonL",
+  "ButtonR",
+  "DPIButton",
+  "SideBtnF",
+  "SideBtnR",
+  "Wheel",
+  "WheelPin"
+ ],
+ "step_leaf_count": 10,
+ "pcb_solids_checked": 27,
+ "min_distance_mm": {
+  "ButtonL~TopShell": 0.0,
+  "ButtonR~TopShell": 0.0,
+  "ButtonL~BottomShell": 0.3,
+  "ButtonL~Wheel": 1.788,
+  "ButtonR~Wheel": 1.788,
+  "Wheel~BottomShell": 0.8,
+  "Wheel~TopShell": 3.884,
+  "DPIButton~TopShell": 0.25,
+  "SideBtnF~TopShell": 0.4,
+  "SideBtnF~BottomShell": 0.15,
+  "SideBtnR~TopShell": 0.4,
+  "SideBtnR~BottomShell": 0.15,
+  "TopShell~BottomShell": 0.0,
+  "WheelPin~BottomShell": 0.05,
+  "ButtonL~ButtonR": 0.6
+ },
+ "stl": {
+  "01_bottom_shell.stl": {
+   "watertight": true,
+   "volume_cm3": 19.77,
+   "bbox": [
+    64.1,
+    119.5,
+    15.8
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 6762.9,
+   "triangles": 91756
+  },
+  "02_top_shell.stl": {
+   "watertight": true,
+   "volume_cm3": 13.58,
+   "bbox": [
+    63.6,
+    81.5,
+    27.6
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 517.2,
+   "triangles": 148860
+  },
+  "03_button_left.stl": {
+   "watertight": true,
+   "volume_cm3": 2.08,
+   "bbox": [
+    30.3,
+    51.0,
+    17.0
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 111.3,
+   "triangles": 30094
+  },
+  "04_button_right.stl": {
+   "watertight": true,
+   "volume_cm3": 2.08,
+   "bbox": [
+    30.3,
+    51.0,
+    17.0
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 111.3,
+   "triangles": 30118
+  },
+  "05_dpi_button.stl": {
+   "watertight": true,
+   "volume_cm3": 0.22,
+   "bbox": [
+    7.5,
+    7.4,
+    15.9
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 0.0,
+   "triangles": 33926
+  },
+  "06_thumb_button_front.stl": {
+   "watertight": true,
+   "volume_cm3": 0.4,
+   "bbox": [
+    13.9,
+    10.2,
+    13.4
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 19.2,
+   "triangles": 44318
+  },
+  "07_thumb_button_rear.stl": {
+   "watertight": true,
+   "volume_cm3": 0.44,
+   "bbox": [
+    14.2,
+    10.2,
+    13.4
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 19.6,
+   "triangles": 36940
+  },
+  "08_wheel.stl": {
+   "watertight": true,
+   "volume_cm3": 2.83,
+   "bbox": [
+    23.0,
+    23.0,
+    14.7
+   ],
+   "zmin": -0.0,
+   "bed_contact_mm2": 396.3,
+   "triangles": 31046
+  }
+ },
+ "thickness_mm": {
+  "01_bottom_shell.stl": {
+   "p1": 1.02,
+   "p5": 1.52,
+   "median": 2.0
+  },
+  "02_top_shell.stl": {
+   "p1": 0.94,
+   "p5": 1.29,
+   "median": 1.88
+  },
+  "03_button_left.stl": {
+   "p1": 0.35,
+   "p5": 0.9,
+   "median": 1.83
+  }
+ },
+ "min_distance_to_pcb_mm": {
+  "BottomShell": [
+   0.0,
+   [
+    0.1,
+    -1.6,
+    6.6
+   ]
+  ],
+  "TopShell": [
+   4.92,
+   [
+    0.1,
+    -1.6,
+    6.6
+   ]
+  ],
+  "ButtonL": [
+   0.14,
+   [
+    -19.1,
+    20.2,
+    9.9
+   ]
+  ],
+  "ButtonR": [
+   0.14,
+   [
+    19.0,
+    20.2,
+    9.9
+   ]
+  ],
+  "DPIButton": [
+   0.04,
+   [
+    2.5,
+    2.4,
+    9.9
+   ]
+  ],
+  "SideBtnF": [
+   0.02,
+   [
+    -16.5,
+    -5.2,
+    9.9
+   ]
+  ],
+  "SideBtnR": [
+   0.02,
+   [
+    -16.5,
+    -23.0,
+    9.9
+   ]
+  ],
+  "Wheel": [
+   0.17,
+   [
+    -11.4,
+    17.7,
+    12.7
+   ]
+  ],
+  "WheelPin": [
+   0.01,
+   [
+    11.4,
+    15.8,
+    9.9
+   ]
+  ]
+ },
+ "min_distance_to_pcb_note": "mesh based (point-to-mesh, chord 0.02 mm); value, centre of the nearest PCB solid"
+}

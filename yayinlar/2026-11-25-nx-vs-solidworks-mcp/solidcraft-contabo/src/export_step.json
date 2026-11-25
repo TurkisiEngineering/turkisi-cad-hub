@@ -1,0 +1,16 @@
+{
+ "commands": [
+  {
+   "command": "component.delete",
+   "params": {
+    "component": "PCB"
+   }
+  },
+  {
+   "command": "file.export_step",
+   "params": {
+    "path": "/root/hub/projects/mouse-pcb/solidcraft/out/mouse_assembly.step"
+   }
+  }
+ ]
+}
