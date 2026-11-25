@@ -21,6 +21,7 @@ footprint'ten, yükseklikleri tahmin. Gerçek parçayla basacaksanız bu üç ö
 | [`neon-mouse/`](neon-mouse/) | Yayın öncesi örnek fare | Antigravity · Neon modeli + bizim NX harness'ımız (NX 2206, NXOpen journal) | ✅ hazır |
 | `nx-mcp/` | Yayındaki NX ajanı | NX MCP | ⏳ yayında |
 | [`solidcraft-contabo/`](solidcraft-contabo/) | Açık kaynak CAD ajanı | SolidCraft 0.49.1 (headless), Contabo Linux VPS | ✅ hazır |
+| [`build123d/`](build123d/) | Claude Code çoklu ajan, NX'siz | Claude Code (Opus 5.5, ultracode) + build123d 0.11.1 (OpenCascade) | ⚠️ teslim, 6 açık bulgu |
 | `solidworks-mcp/` | Konuğumuz Ahmet Talha Olmuştur | SolidWorks MCP | ⏳ yayında |
 
 Kıyas kriterleri: basılabilirlik · tuş/tekerlek uyumu · sensör açıklığı · montaj/vida · ergonomi · süre.
@@ -61,3 +62,21 @@ Betiklerdeki mutlak Windows yolları bizim makinemize ait; kendi makinenizde ça
 ![SolidCraft](solidcraft-contabo/renders/mouse_iso.png)
 
 Betiklerdeki `/root/hub/...` yolları bizim sunucumuza ait; kendi ortamınızda değiştirin.
+
+## build123d (Claude Code) içeriği
+
+120 × 63.5 × 39.9 mm, 10 parça: alt kabuk, üst kabuk, sol/sağ tuş (PETG yaprak menteşe), tekerlek, tekerlek yatağı,
+DPI tuşu, iki başparmak tuşu (dirsekli kol) ve Ø2 çelik pim. Bütün iş Python'da (build123d). Claude Code işi
+paralel alt ajanlara böldü: kart okuma, ortak yerleşim, 5 parça paketi, montaj, bağımsız inceleme, düzeltme
+ve render. Süre yaklaşık 4 sa 45 dk. Bağımsız incelemede 6 engelleyici bulgu açık kaldı; en önemlisi ana tuşların
+takılabilmesi. Ayrıntılar ve ölçüm tablosu: [`build123d/README.md`](build123d/README.md),
+[`CHECKS.md`](build123d/CHECKS.md).
+
+| Dosya / klasör | İçerik |
+|---|---|
+| `mouse_assembly_step.zip`, `parts_step.zip` | STEP montajı (PCB dahil) ve parça STEP'leri, zip içinde (açılmış montaj 130 MB) |
+| [`STL/`](build123d/STL/) | Parça başına STL, baskı yönünde |
+| [`renders/`](build123d/renders/) | hero, üst, yan, alt, patlatılmış, kesit |
+| [`src/`](build123d/src/) | Ortak yerleşim (`master.py`), parça, montaj ve inceleme betikleri |
+
+![build123d](build123d/renders/mouse_hero.png)
