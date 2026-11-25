@@ -1,0 +1,262 @@
+{
+ "result": "PASS",
+ "saved_parts": [
+  "Crystal_SMD_3225-4Pin_3.2x2.5mm.prt",
+  "QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.prt",
+  "PixArt_PDIP-16_10.9x16.2mm_P1.78mm.prt",
+  "PinHeader_1x04_P2.54mm_Vertical.prt",
+  "SOIC-8_5.3x5.3mm_P1.27mm.prt",
+  "SW_Tactile_SPDT_Omron_D2F.prt",
+  "Alps_EC10E.prt",
+  "SOT-223.prt",
+  "D_SOD-123.prt",
+  "C_0603_1608Metric.prt",
+  "R_0603_1608Metric.prt",
+  "pcb_girdi_PCB.prt",
+  "mouse_pcb_ref.prt"
+ ],
+ "loaded_components": [
+  {
+   "name": "MOUSE_SKATES",
+   "solids": 3
+  },
+  {
+   "name": "MOUSE_THUMB_BACK",
+   "solids": 1
+  },
+  {
+   "name": "MOUSE_THUMB_FWD",
+   "solids": 1
+  },
+  {
+   "name": "MOUSE_DPI_BUTTON",
+   "solids": 1
+  },
+  {
+   "name": "MOUSE_SCROLL_WHEEL",
+   "solids": 1
+  },
+  {
+   "name": "MOUSE_TOP_SHELL",
+   "solids": 1
+  },
+  {
+   "name": "MOUSE_BASE",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "CRYSTAL_SMD_3225-4PIN_3.2X2.5MM",
+   "solids": 1
+  },
+  {
+   "name": "QFN-56-1EP_7X7MM_P0.4MM_EP5.6X5.6MM",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "PIXART_PDIP-16_10.9X16.2MM_P1.78MM",
+   "solids": 17
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SOT-223",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "PINHEADER_1X04_P2.54MM_VERTICAL",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SOIC-8_5.3X5.3MM_P1.27MM",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SW_TACTILE_SPDT_OMRON_D2F",
+   "solids": 1
+  },
+  {
+   "name": "ALPS_EC10E",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "SOT-223",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "D_SOD-123",
+   "solids": 1
+  },
+  {
+   "name": "C_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "R_0603_1608METRIC",
+   "solids": 1
+  },
+  {
+   "name": "PCB_GIRDI_PCB",
+   "solids": 1
+  }
+ ],
+ "total_solids_in_asm": 78,
+ "full_step_bytes": 3508495
+}

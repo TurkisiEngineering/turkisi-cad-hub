@@ -1,0 +1,213 @@
+{
+ "result": "PASS",
+ "parts": [
+  {
+   "part": "mouse_base",
+   "solids": 1,
+   "volume_mm3": 14242.34,
+   "bbox": [
+    4.148,
+    -124.226,
+    -4.573,
+    75.241,
+    -0.348,
+    10.6
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_top_shell",
+   "solids": 1,
+   "volume_mm3": 19207.37,
+   "bbox": [
+    4.111,
+    -123.907,
+    2.381,
+    74.476,
+    -0.274,
+    37.452
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_scroll_wheel",
+   "solids": 1,
+   "volume_mm3": 1914.11,
+   "bbox": [
+    24.3,
+    -39.447,
+    -2.952,
+    52.0,
+    -16.353,
+    20.142
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_dpi_button",
+   "solids": 1,
+   "volume_mm3": 313.4,
+   "bbox": [
+    36.37,
+    -47.68,
+    7.65,
+    42.37,
+    -38.68,
+    27.861
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_thumb_fwd",
+   "solids": 1,
+   "volume_mm3": 489.69,
+   "bbox": [
+    9.0,
+    -59.0,
+    7.65,
+    22.4,
+    -42.6,
+    20.45
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_thumb_back",
+   "solids": 1,
+   "volume_mm3": 526.39,
+   "bbox": [
+    8.3,
+    -76.0,
+    7.65,
+    22.4,
+    -59.6,
+    20.45
+   ],
+   "body_ok": true,
+   "examine": {
+    "ObjectTiny": 0,
+    "ObjectMisaligned": 0,
+    "BodyDataStructures": 0,
+    "BodyConsistency": 0,
+    "BodyFaceIntersections": 0,
+    "BodySheetBoundaries": 0,
+    "FaceSmoothness": 0,
+    "FaceSelfIntersection": 0,
+    "FaceSpikesCuts": 0,
+    "EdgeSmoothness": 0,
+    "EdgeTolerances": 0
+   },
+   "feature_errors": {}
+  },
+  {
+   "part": "mouse_skates",
+   "solids": 3,
+   "volume_mm3": 515.78,
+   "body_ok": true,
+   "feature_errors": {}
+  }
+ ],
+ "clearance_exact": [
+  {
+   "pair": [
+    "ALPS_EC10E",
+    "PCB_GIRDI_PCB"
+   ],
+   "type": "Hard"
+  },
+  {
+   "pair": [
+    "MOUSE_BASE",
+    "MOUSE_TOP_SHELL"
+   ],
+   "type": "Touch"
+  },
+  {
+   "pair": [
+    "MOUSE_BASE",
+    "PCB_GIRDI_PCB"
+   ],
+   "type": "Touch"
+  }
+ ],
+ "hard_interferences_all": [
+  {
+   "pair": [
+    "ALPS_EC10E",
+    "PCB_GIRDI_PCB"
+   ],
+   "type": "Hard"
+  }
+ ],
+ "hard_interferences_mech": []
+}

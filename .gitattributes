@@ -1,0 +1,6 @@
+# CAD dosyaları birebir saklanır (satır sonu dönüşümü yok, SHA değişmez)
+*.step -text diff
+*.stp  -text diff
+*.stl  binary
+*.prt  binary
+*.png  binary

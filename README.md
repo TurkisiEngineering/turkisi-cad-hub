@@ -74,6 +74,10 @@ _Henüz listelenecek proje yok._
 
 Kendi reponu bu listeye eklemek istiyorsan **Projelerimiz** kategorisinde paylaş. Düzenli katkı yapan üyeler `community/members.yml` dosyasına eklenir.
 
+## Yayın dosyaları
+
+Canlı yayınlarda kullandığımız girdiler ve ajanların sonuçları (STEP, STL, NX dosyaları, renderlar): [yayinlar/](yayinlar/).
+
 ## Kurallar
 
 Kısaca: saygılı ol, gizli/NDA'lı müşteri dosyası paylaşma, reklam yapma, soruna log ve ekran görüntüsü ekle. Tamamı: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
