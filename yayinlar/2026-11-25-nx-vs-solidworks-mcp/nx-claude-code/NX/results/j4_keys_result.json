@@ -1,0 +1,121 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "btn_left skin patch",
+   "ok": true,
+   "value": 2323.5294825824494
+  },
+  {
+   "label": "btn_left one solid",
+   "ok": true,
+   "value": [
+    "BTN_LEFT"
+   ]
+  },
+  {
+   "label": "btn_left nub tip at z_pl+nub_gap",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "btn_left no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "btn_left product body in MODEL",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "btn_right skin patch",
+   "ok": true,
+   "value": 2323.529528334742
+  },
+  {
+   "label": "btn_right one solid",
+   "ok": true,
+   "value": [
+    "BTN_RIGHT"
+   ]
+  },
+  {
+   "label": "btn_right nub tip at z_pl+nub_gap",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "btn_right no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "btn_right product body in MODEL",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "key_fwd pad",
+   "ok": true,
+   "value": 95.5937296183696
+  },
+  {
+   "label": "key_fwd one solid",
+   "ok": true,
+   "value": [
+    "KEY_FWD"
+   ]
+  },
+  {
+   "label": "key_fwd arm underside at z_pl+nub_gap over the plunger",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "key_fwd no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "key_fwd product body in MODEL",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "key_back pad",
+   "ok": true,
+   "value": 144.96033555509288
+  },
+  {
+   "label": "key_back one solid",
+   "ok": true,
+   "value": [
+    "KEY_BACK"
+   ]
+  },
+  {
+   "label": "key_back arm underside at z_pl+nub_gap over the plunger",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "key_back no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "key_back product body in MODEL",
+   "ok": true,
+   "value": null
+  }
+ ],
+ "notes": [
+  "btn_left volume 2444.101316416714 bbox [-30.454425671502012, -13.000000000000002, 7.795, -0.30000000000000426, 50.54270988446237, 23.833434776050446]",
+  "btn_right volume 2444.1013538578486 bbox [0.2999999999999998, -13.000000000000002, 7.795, 30.454425671501998, 50.54270988446238, 23.83343477605046]",
+  "key_fwd volume 255.97181816114932 bbox [-30.992049037732603, -10.399999999999999, 1.825, -16.6, -3.200000000000001, 13.499999999999996]",
+  "key_back volume 310.99871773671066 bbox [-31.41748319688015, -27.499999999999996, 1.825, -16.6, -16.5, 13.49999999999999]"
+ ],
+ "n_checks": 20,
+ "n_fail": 0
+}

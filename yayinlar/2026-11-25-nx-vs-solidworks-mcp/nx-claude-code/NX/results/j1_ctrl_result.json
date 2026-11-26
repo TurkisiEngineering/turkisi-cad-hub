@@ -1,0 +1,325 @@
+{
+ "result": "FAIL",
+ "checks": [
+  {
+   "label": "pcb bodies imported = STEP solids",
+   "ok": true,
+   "value": [
+    69,
+    69
+   ]
+  },
+  {
+   "label": "pcb bodies uniquely named",
+   "ok": true,
+   "value": 69
+  },
+  {
+   "label": "key bodies present",
+   "ok": true,
+   "value": [
+    "C1",
+    "C10",
+    "C100",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C2",
+    "C200",
+    "C3",
+    "C300"
+   ]
+  },
+  {
+   "label": "board 49.784 x 61.722 x 1.51 centred",
+   "ok": true,
+   "value": [
+    -24.8945,
+    -30.8635,
+    -0.0025,
+    24.8945,
+    30.8635,
+    1.5125
+   ]
+  },
+  {
+   "label": "z_surf = -5.805",
+   "ok": true,
+   "value": -5.805000000000001
+  },
+  {
+   "label": "z_lens = -3.405",
+   "ok": true,
+   "value": -3.4050000000000007
+  },
+  {
+   "label": "loft is a solid",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "trimmed flat at z_base",
+   "ok": true,
+   "value": [
+    [
+     -31.430878265555442,
+     -65.0,
+     -5.005000000000001,
+     31.430878265555428,
+     52.0,
+     31.001942941070205
+    ],
+    182073.3236834092,
+    167561.50845981122
+   ]
+  },
+  {
+   "label": "one solid after blends",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "envelope size L 117 x W 62 x H to 31",
+   "ok": true,
+   "value": [
+    -31.430878265555442,
+    -65.0,
+    -5.005000000000001,
+    31.430878265555428,
+    51.99999999999997,
+    31.001942941070205
+   ]
+  },
+  {
+   "label": "closed shell hollow (vol drop, still 1 body)",
+   "ok": true,
+   "value": [
+    167551.9043803604,
+    33103.45314939882
+   ]
+  },
+  {
+   "label": "ENVELOPE unchanged by shell",
+   "ok": true,
+   "value": 167551.9043803604
+  },
+  {
+   "label": "T_BTN_L_A sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p344=(btn_xo-btn_ix)/2",
+     "p345=(btn_xo-btn_ix)/2",
+     "p346=(60-btn_ry)/2",
+     "p347=(60-btn_ry)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_BTN_L_B sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p353=(btn_ix-btn_mg)/2",
+     "p354=(btn_ix-btn_mg)/2",
+     "p355=(60-btn_fy)/2",
+     "p356=(60-btn_fy)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_BTN_R_A sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p362=(btn_xo-btn_ix)/2",
+     "p363=(btn_xo-btn_ix)/2",
+     "p364=(60-btn_ry)/2",
+     "p365=(60-btn_ry)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_BTN_R_B sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p371=(btn_ix-btn_mg)/2",
+     "p372=(btn_ix-btn_mg)/2",
+     "p373=(60-btn_fy)/2",
+     "p374=(60-btn_fy)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_SKF sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p380=(40+sk_x)/2",
+     "p381=(40+sk_x)/2",
+     "p382=(skf_y1-skf_y0)/2",
+     "p383=(skf_y1-skf_y0)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_SKB sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p389=(40+sk_x)/2",
+     "p390=(40+sk_x)/2",
+     "p391=(skb_y1-skb_y0)/2",
+     "p392=(skb_y1-skb_y0)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_WHL sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p398=(whl_w+2*whl_slot)/2",
+     "p399=(whl_w+2*whl_slot)/2",
+     "p400=(btn_fy-(ax_y-whl_d/2-0.8))/2",
+     "p401=(btn_fy-(ax_y-whl_d/2-0.8))/2"
+    ]
+   }
+  },
+  {
+   "label": "T_DPI_L sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p407=(dpi_sw)/2",
+     "p408=(dpi_sw)/2",
+     "p409=(btn_ry-dpi_ry)/2",
+     "p410=(btn_ry-dpi_ry)/2"
+    ]
+   }
+  },
+  {
+   "label": "T_DPI_R sketch DOF 0",
+   "ok": true,
+   "value": {
+    "status": "WellConstrained",
+    "dof": 0,
+    "auto_dims": 0,
+    "n_geom": 4,
+    "dims": [
+     "p416=(dpi_sw)/2",
+     "p417=(dpi_sw)/2",
+     "p418=(btn_ry-dpi_ry)/2",
+     "p419=(btn_ry-dpi_ry)/2"
+    ]
+   }
+  },
+  {
+   "label": "tool T_BTN_L",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_BTN_R",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_SKF",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_SKB",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_WHL",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_DPI_L",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "tool T_DPI_R",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "regen: skf_y1 +1 grows T_SKF by area",
+   "ok": false,
+   "value": [
+    657.0,
+    748.2500000000003
+   ]
+  },
+  {
+   "label": "regen: s4_zt 31->33->31 changes housing and returns",
+   "ok": true,
+   "value": [
+    33103.45314939882,
+    33314.147468105206,
+    33103.45314939882
+   ]
+  },
+  {
+   "label": "ctrl feature errors none",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "design assembly components",
+   "ok": true,
+   "value": null
+  }
+ ],
+ "notes": [
+  "pcb names ['C1', 'C10', 'C100', 'C11', 'C12', 'C13', 'C14', 'C15', 'C2', 'C200', 'C3', 'C300', 'C4', 'C400', 'C500', 'C6', 'C7', 'C8', 'C9', 'D1', 'D10', 'D11', 'D12', 'D2', 'D3', 'D4', 'D5', 'D6', 'D7', 'D8', 'D9', 'ENCODER1', 'PCB', 'R1', 'R100', 'R200', 'R3', 'R4', 'R40', 'R500', 'SW1', 'SW2', 'SW3', 'SW4', 'SW5', 'SW6', 'U1', 'U10', 'U2_0', 'U2_1', 'U2_10', 'U2_11', 'U2_12', 'U2_13', 'U2_14', 'U2_15', 'U2_16', 'U2_2', 'U2_3', 'U2_4', 'U2_5', 'U2_6', 'U2_7', 'U2_8', 'U2_9', 'U3', 'U4', 'USB1', 'Y1']",
+  "BASE plane origin [0.0, 0.0, -5.005000000000001] normal [0.0, 0.0, 1.0]",
+  "loft volume 182073.3236834092",
+  "front end blend [{'built': 'blend', 'size': '3.0', 'treated': 1, 'untreated': 0, 'features': ['Edge Blend(12)'], 'errors': [], 'overflow': False, 'edges': 1}]",
+  "rear end blend [{'built': 'blend, smaller', 'size': '(4.0)*0.66', 'treated': 1, 'untreated': 0, 'features': ['Edge Blend(13)'], 'errors': ['Unable to terminate the blend faces. Blend adjacent edges first or reduce the radius.'], 'overflow': False, 'edges': 1}]",
+  "envelope bbox [-31.430878265555442, -65.0, -5.005000000000001, 31.430878265555428, 51.99999999999997, 31.001942941070205] volume 167551.9043803604"
+ ],
+ "n_checks": 32,
+ "n_fail": 1
+}

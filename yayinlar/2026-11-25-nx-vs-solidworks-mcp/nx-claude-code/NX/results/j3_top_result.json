@@ -1,0 +1,101 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "trimmed above parting",
+   "ok": true,
+   "value": [
+    -31.430878265555442,
+    -65.0,
+    -0.9999999999999993,
+    31.430878265555428,
+    51.999999999999986,
+    31.001942941070205
+   ]
+  },
+  {
+   "label": "opening tool T_BTN_L grown",
+   "ok": true,
+   "value": [
+    94521.40000000001,
+    102498.73600000002
+   ]
+  },
+  {
+   "label": "opening tool T_BTN_R grown",
+   "ok": true,
+   "value": [
+    94521.40000000001,
+    102498.73600000002
+   ]
+  },
+  {
+   "label": "opening tool T_SKF grown",
+   "ok": true,
+   "value": [
+    657.0000000000002,
+    978.1800000000003
+   ]
+  },
+  {
+   "label": "opening tool T_SKB grown",
+   "ok": true,
+   "value": [
+    1003.7500000000001,
+    1420.6900000000003
+   ]
+  },
+  {
+   "label": "one solid after openings",
+   "ok": true,
+   "value": [
+    20427.13982592479,
+    17895.294298767636,
+    15385.935687760646,
+    15255.81726119641,
+    15068.5578923208,
+    14665.017325209026,
+    14624.178314563094,
+    14583.340013096718
+   ]
+  },
+  {
+   "label": "4 PCB hole centres linked",
+   "ok": true,
+   "value": 4
+  },
+  {
+   "label": "one solid after clamp bosses",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "top shell one solid",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "no other product solids in MODEL",
+   "ok": true,
+   "value": [
+    "TOP_SHELL"
+   ]
+  },
+  {
+   "label": "no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "product body in MODEL reference set",
+   "ok": true,
+   "value": null
+  }
+ ],
+ "notes": [
+  "volumes after cuts [20427.13982592479, 17895.294298767636, 15385.935687760646, 15255.81726119641, 15068.5578923208, 14665.017325209026, 14624.178314563094, 14583.340013096718]",
+  "volume 15487.654303264248 bbox [-31.430878265555442, -65.0, -0.9999999999999993, 31.430878265555428, 51.999999999999986, 31.001942941070205]"
+ ],
+ "n_checks": 12,
+ "n_fail": 0
+}

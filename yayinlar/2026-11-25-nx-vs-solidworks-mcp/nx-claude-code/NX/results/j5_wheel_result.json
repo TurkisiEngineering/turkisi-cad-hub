@@ -1,0 +1,57 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "rim volume = pi r2 w",
+   "ok": true,
+   "value": 2660.9289775905545
+  },
+  {
+   "label": "one groove removed",
+   "ok": true,
+   "value": [
+    2768.139519701353,
+    2764.237253274521
+   ]
+  },
+  {
+   "label": "grooves patterned (23 more grooves, ~same volume each)",
+   "ok": true,
+   "value": [
+    2768.139519701353,
+    2764.237253274521,
+    2674.485124539021
+   ]
+  },
+  {
+   "label": "wheel one solid",
+   "ok": true,
+   "value": [
+    "WHEEL"
+   ]
+  },
+  {
+   "label": "wheel x span -12.0..3.5",
+   "ok": true,
+   "value": [
+    -12.0,
+    6.704369512082045,
+    -2.3936304879179517,
+    3.5,
+    28.681630487918124,
+    19.583630487918118
+   ]
+  },
+  {
+   "label": "no feature errors",
+   "ok": true,
+   "value": {}
+  }
+ ],
+ "notes": [
+  "rim blend [{'built': 'blend', 'size': 'rim_r', 'treated': 2, 'untreated': 0, 'features': ['Edge Blend(2)'], 'errors': [], 'overflow': False, 'edges': 2}]",
+  "groove pattern 2764.237253274521 2674.485124539021"
+ ],
+ "n_checks": 6,
+ "n_fail": 0
+}

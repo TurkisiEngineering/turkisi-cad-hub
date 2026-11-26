@@ -1,0 +1,592 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "only intended overlap: 2.0 pin pressed in the 1.95 wheel bore",
+   "ok": true,
+   "value": [
+    {
+     "a": "wheel",
+     "b": "axle_pin",
+     "min_dist": 0.0,
+     "result": "InterferenceExists",
+     "overlap": [
+      0.667
+     ]
+    }
+   ]
+  },
+  {
+   "label": "nub gap btn_left-SW1 = 0.20",
+   "ok": true,
+   "value": 0.2
+  },
+  {
+   "label": "nub gap btn_right-SW2 = 0.20",
+   "ok": true,
+   "value": 0.2
+  },
+  {
+   "label": "nub gap key_fwd-SW5 = 0.20",
+   "ok": true,
+   "value": 0.2
+  },
+  {
+   "label": "nub gap key_back-SW6 = 0.20",
+   "ok": true,
+   "value": 0.2
+  },
+  {
+   "label": "nub gap top_shell(DPI nub)-SW4 = 0.20",
+   "ok": true,
+   "value": 0.2
+  },
+  {
+   "label": "axle pin rests on SW3 plunger (0)",
+   "ok": true,
+   "value": 0.0
+  },
+  {
+   "label": "wheel back at rest",
+   "ok": true,
+   "value": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "label": "assembly STEP written",
+   "ok": true,
+   "value": 6351523
+  }
+ ],
+ "notes": [],
+ "clearance_all": [
+  {
+   "pair": [
+    "AXLE_PIN",
+    "PCB"
+   ],
+   "type": "Touch"
+  },
+  {
+   "pair": [
+    "AXLE_PIN",
+    "WHEEL"
+   ],
+   "type": "Hard"
+  },
+  {
+   "pair": [
+    "BOTTOM_SHELL",
+    "PCB"
+   ],
+   "type": "Touch"
+  },
+  {
+   "pair": [
+    "BOTTOM_SHELL",
+    "TOP_SHELL"
+   ],
+   "type": "Touch"
+  },
+  {
+   "pair": [
+    "BTN_LEFT",
+    "TOP_SHELL"
+   ],
+   "type": "Touch"
+  },
+  {
+   "pair": [
+    "BTN_RIGHT",
+    "TOP_SHELL"
+   ],
+   "type": "Touch"
+  }
+ ],
+ "pairs_within_1_5mm": [
+  {
+   "a": "bottom_shell",
+   "b": "top_shell",
+   "min_dist": 0.0,
+   "result": "OnlyEdgesOrFacesInterfere",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "wheel",
+   "min_dist": 0.4,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "axle_pin",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "lens",
+   "min_dist": 0.15,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW2",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW3",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW5",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW6",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:USB1",
+   "min_dist": 1.0,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW4",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:SW1",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:ENCODER1",
+   "min_dist": 1.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "bottom_shell",
+   "b": "pcb:PCB",
+   "min_dist": 0.0,
+   "result": "OnlyEdgesOrFacesInterfere",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "btn_left",
+   "min_dist": 0.0,
+   "result": "OnlyEdgesOrFacesInterfere",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "btn_right",
+   "min_dist": 0.0,
+   "result": "OnlyEdgesOrFacesInterfere",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "key_fwd",
+   "min_dist": 0.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "key_back",
+   "min_dist": 0.3,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "hinge_f",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "hinge_b",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:SW2",
+   "min_dist": 0.2141,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:C300",
+   "min_dist": 1.4398,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:SW6",
+   "min_dist": 0.742,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:USB1",
+   "min_dist": 0.35,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:SW4",
+   "min_dist": 0.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:SW1",
+   "min_dist": 0.2141,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "top_shell",
+   "b": "pcb:PCB",
+   "min_dist": 0.09,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "btn_left",
+   "b": "btn_right",
+   "min_dist": 0.6,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "btn_left",
+   "b": "key_fwd",
+   "min_dist": 1.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "btn_left",
+   "b": "pcb:SW1",
+   "min_dist": 0.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "btn_left",
+   "b": "pcb:ENCODER1",
+   "min_dist": 0.8331,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "btn_right",
+   "b": "pcb:SW2",
+   "min_dist": 0.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_fwd",
+   "b": "hinge_f",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_fwd",
+   "b": "pcb:SW5",
+   "min_dist": 0.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_fwd",
+   "b": "pcb:PCB",
+   "min_dist": 0.315,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_back",
+   "b": "hinge_b",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_back",
+   "b": "pcb:SW6",
+   "min_dist": 0.2,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "key_back",
+   "b": "pcb:PCB",
+   "min_dist": 0.315,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "wheel",
+   "b": "axle_pin",
+   "min_dist": 0.0,
+   "result": "InterferenceExists",
+   "overlap": [
+    0.667
+   ]
+  },
+  {
+   "a": "wheel",
+   "b": "pcb:ENCODER1",
+   "min_dist": 0.1,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "axle_pin",
+   "b": "pcb:SW3",
+   "min_dist": 0.0,
+   "result": "OnlyEdgesOrFacesInterfere",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_0",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_1",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_2",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_3",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_4",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_5",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_6",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_7",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_8",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_9",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_10",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_11",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_12",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_13",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_14",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_15",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:U2_16",
+   "min_dist": 0.095,
+   "result": "NoInterference",
+   "overlap": []
+  },
+  {
+   "a": "lens",
+   "b": "pcb:PCB",
+   "min_dist": 0.17,
+   "result": "NoInterference",
+   "overlap": []
+  }
+ ],
+ "intended_press_fits": [
+  {
+   "a": "wheel",
+   "b": "axle_pin",
+   "min_dist": 0.0,
+   "result": "InterferenceExists",
+   "overlap": [
+    0.667
+   ]
+  }
+ ],
+ "gaps": {
+  "btn_left-SW1": 0.2,
+  "btn_right-SW2": 0.2,
+  "key_fwd-SW5": 0.2,
+  "key_back-SW6": 0.2,
+  "top_shell(DPI nub)-SW4": 0.2,
+  "axle_pin-SW3": 0.0,
+  "wheel-ENCODER1": 0.1,
+  "bottom_shell-lens_envelope": 0.15,
+  "bottom_shell-U2_0(sensor)": 5.15,
+  "top_shell-USB1": 0.35,
+  "top_shell-ENCODER1": 9.0284,
+  "wheel-top_shell": 2.7914,
+  "wheel-bottom_shell": 0.4,
+  "axle_pin-bottom_shell(fork)": 0.1,
+  "btn_left-top_shell": 0.0,
+  "key_fwd-top_shell": 0.3,
+  "key_back-top_shell": 0.3
+ },
+ "pressed_wheel": {
+  "tilt_deg": 2.033,
+  "pin_bbox": [
+   -0.841,
+   16.693,
+   6.783,
+   13.221,
+   18.693,
+   9.279
+  ],
+  "axle_pin-SW3": [
+   "InterferenceExists",
+   [
+    2.3779214315563024
+   ]
+  ],
+  "wheel-ENCODER1": [
+   0.0171,
+   "NoInterference",
+   []
+  ],
+  "wheel-bottom_shell": [
+   0.3416,
+   "NoInterference",
+   []
+  ],
+  "axle_pin-bottom_shell": [
+   0.1,
+   "NoInterference",
+   []
+  ],
+  "wheel-top_shell": [
+   2.7914,
+   "NoInterference",
+   []
+  ],
+  "wheel-PCB": [
+   2.3187
+  ]
+ },
+ "n_checks": 9,
+ "n_fail": 0
+}

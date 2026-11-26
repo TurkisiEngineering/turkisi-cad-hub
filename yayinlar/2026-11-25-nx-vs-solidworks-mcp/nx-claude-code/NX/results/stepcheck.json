@@ -1,0 +1,74 @@
+[
+ {
+  "instance": "PCB",
+  "product": "pcb",
+  "solids": 69,
+  "volume": 7442.65
+ },
+ {
+  "instance": "BOTTOM_SHELL",
+  "product": "bottom_shell",
+  "solids": 1,
+  "volume": 12457.42
+ },
+ {
+  "instance": "TOP_SHELL",
+  "product": "top_shell",
+  "solids": 1,
+  "volume": 15494.68
+ },
+ {
+  "instance": "BTN_LEFT",
+  "product": "btn_left",
+  "solids": 1,
+  "volume": 2444.42
+ },
+ {
+  "instance": "BTN_RIGHT",
+  "product": "btn_right",
+  "solids": 1,
+  "volume": 2444.08
+ },
+ {
+  "instance": "KEY_FWD",
+  "product": "key_fwd",
+  "solids": 1,
+  "volume": 255.97
+ },
+ {
+  "instance": "KEY_BACK",
+  "product": "key_back",
+  "solids": 1,
+  "volume": 311.0
+ },
+ {
+  "instance": "WHEEL",
+  "product": "wheel",
+  "solids": 1,
+  "volume": 2674.49
+ },
+ {
+  "instance": "AXLE_PIN",
+  "product": "axle_pin",
+  "solids": 1,
+  "volume": 43.98
+ },
+ {
+  "instance": "HINGE_PIN_F",
+  "product": "hinge_pin",
+  "solids": 1,
+  "volume": 21.65
+ },
+ {
+  "instance": "HINGE_PIN_B",
+  "product": "hinge_pin",
+  "solids": 1,
+  "volume": 21.65
+ },
+ {
+  "instance": "LM19_LSI_LENS_ENVELOPE",
+  "product": "lm19_lens_envelope",
+  "solids": 1,
+  "volume": 1157.88
+ }
+]

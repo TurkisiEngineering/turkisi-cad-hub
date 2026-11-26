@@ -1,0 +1,86 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "trimmed below parting",
+   "ok": true,
+   "value": [
+    -30.24210990905805,
+    -65.0,
+    -5.005000000000001,
+    30.24210990905806,
+    51.999999999999844,
+    -0.9999999999999991
+   ]
+  },
+  {
+   "label": "4 PCB hole centres linked",
+   "ok": true,
+   "value": [
+    [
+     -22.86,
+     -28.829
+    ],
+    [
+     -22.86,
+     28.829
+    ],
+    [
+     22.86,
+     -28.829
+    ],
+    [
+     22.86,
+     28.829
+    ]
+   ]
+  },
+  {
+   "label": "one solid after standoffs",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "bottom shell is one solid",
+   "ok": true,
+   "value": 1
+  },
+  {
+   "label": "no feature errors",
+   "ok": true,
+   "value": {}
+  },
+  {
+   "label": "floor underside flat at z_base = z_surf + skate 0.8",
+   "ok": true,
+   "value": [
+    -30.24210990905805,
+    -65.0,
+    -5.005000000000001,
+    30.24210990905806,
+    51.999999999999844,
+    9.999999999999998
+   ]
+  },
+  {
+   "label": "standoff top at z=0 (PCB bottom)",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "lens pocket floor at z_lens-0.15",
+   "ok": true,
+   "value": null
+  },
+  {
+   "label": "product body in MODEL reference set",
+   "ok": true,
+   "value": null
+  }
+ ],
+ "notes": [
+  "volume 12429.110804913933 tray volume 12676.31114510332"
+ ],
+ "n_checks": 9,
+ "n_fail": 0
+}

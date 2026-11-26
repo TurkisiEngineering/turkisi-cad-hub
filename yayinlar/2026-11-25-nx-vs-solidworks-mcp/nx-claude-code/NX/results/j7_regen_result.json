@@ -1,0 +1,40 @@
+{
+ "result": "PASS",
+ "checks": [
+  {
+   "label": "regen: skf_y1 +1 grows T_SKF by 1 x (40+sk_x) x (sk_z1-sk_z0)",
+   "ok": true,
+   "value": [
+    657.0000000000002,
+    748.2500000000003,
+    91.25
+   ]
+  },
+  {
+   "label": "regen: palm height 31->33 and wall 1.8->2.0 change HOUSING, nominal restores it",
+   "ok": true,
+   "value": [
+    33103.45314939882,
+    33314.14746810519,
+    36790.62547928122,
+    33103.45314939882
+   ]
+  },
+  {
+   "label": "regen: whl_d 22->24 lengthens the wheel slot by 1 mm (rear end at ax_y-whl_d/2-0.8)",
+   "ok": true,
+   "value": [
+    8837.481015000001,
+    9196.626014999998
+   ]
+  },
+  {
+   "label": "ctrl feature errors none",
+   "ok": true,
+   "value": null
+  }
+ ],
+ "notes": [],
+ "n_checks": 4,
+ "n_fail": 0
+}

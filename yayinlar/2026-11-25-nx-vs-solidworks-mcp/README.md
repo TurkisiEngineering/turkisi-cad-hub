@@ -22,6 +22,7 @@ footprint'ten, yükseklikleri tahmin. Gerçek parçayla basacaksanız bu üç ö
 | `nx-mcp/` | Yayındaki NX ajanı | NX MCP | ⏳ yayında |
 | [`solidcraft-contabo/`](solidcraft-contabo/) | Açık kaynak CAD ajanı | SolidCraft 0.49.1 (headless), Contabo Linux VPS | ✅ hazır |
 | [`build123d/`](build123d/) | Claude Code çoklu ajan, NX'siz | Claude Code (Opus 5.5, ultracode) + build123d 0.11.1 (OpenCascade) | ⚠️ teslim, 6 açık bulgu |
+| [`nx-claude-code/`](nx-claude-code/) | Claude Code, temiz NX oturumu | Claude Code (Opus 5.5) + bizim NX harness'ımız (NX 2206, NXOpen journal, WAVE kontrol parçası) | ✅ teslim, ~2 sa |
 | `solidworks-mcp/` | Konuğumuz Ahmet Talha Olmuştur | SolidWorks MCP | ⏳ yayında |
 
 Kıyas kriterleri: basılabilirlik · tuş/tekerlek uyumu · sensör açıklığı · montaj/vida · ergonomi · süre.
@@ -80,3 +81,22 @@ takılabilmesi. Ayrıntılar ve ölçüm tablosu: [`build123d/README.md`](build1
 | [`src/`](build123d/src/) | Ortak yerleşim (`master.py`), parça, montaj ve inceleme betikleri |
 
 ![build123d](build123d/renders/mouse_hero.png)
+
+## NX (Claude Code) içeriği
+
+117.0 × 62.9 × 36.8 mm, 7 baskı parçası: alt kabuk, üst kabuk, sol/sağ tuş (esnek dil, M2×5), tekerlek, iki yan tuş
+(Ø1.75 filament pim menteşe) + Ø2 çelik pim. Aynı görev, sıfırdan ve tek bir Claude Code oturumunda yerel NX 2206 ile
+kuruldu: kontrol parçası (`mouse_ctrl.prt`, ana ifadeler + dış deri), WAVE bağlantılarıyla parçalar, üretim montajı.
+Parçaların hepsi geçmişli ve parametrik. Süre yaklaşık 2 saat (bir çökme ve yeniden başlatma dahil). Nub–plunger boşlukları
+0.20 mm, lens düzlemi yüzeye 2.40 mm, montajda yalnız kasıtlı pim pres geçmesi örtüşüyor. Fiziksel baskı denenmedi.
+Ayrıntılar ve açık noktalar: [`nx-claude-code/README.md`](nx-claude-code/README.md), [`CHECKS.md`](nx-claude-code/CHECKS.md).
+
+| Dosya / klasör | İçerik |
+|---|---|
+| `mouse_assembly_step.zip` | STEP montajı (PCB dahil), zip içinde |
+| `NX/nx_prt.zip` | NX 2206 `.prt` dosyaları: kontrol parçası, tasarım ve üretim montajı, parçalar |
+| [`STL/`](nx-claude-code/STL/) | Parça başına STL, baskı yönünde |
+| [`renders/`](nx-claude-code/renders/), [`renders/blender/`](nx-claude-code/renders/blender/) | NX ara render'ları, Blender stüdyo render'ları |
+| [`NX/journals/`](nx-claude-code/NX/journals/), [`NX/results/`](nx-claude-code/NX/results/) | Modeli baştan üreten journal'lar (`j1_ctrl` … `j7_regen`) ve ölçüm sonuçları |
+
+![NX](nx-claude-code/renders/blender/01_hero_neon.png)
